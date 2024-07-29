@@ -1,0 +1,44 @@
+body {
+    background-color: #6fad64;
+}
+
+.outside-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+
+}
+
+.SumNum {
+    display: flex;
+    gap: 50px;
+}
+
+input {
+    border: 2px solid black;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid #04aa6d;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #144131;
+    color: white;
+
+}
